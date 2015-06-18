@@ -14,3 +14,9 @@ config.mongo =
   db: env.HODOR_MONGO_DB or 'hodor'
   username: env.HODOR_MONGO_USERNAME or ''
   password: env.HODOR_MONGO_PASSWORD or ''
+
+config.slack =
+  botToken: 'xoxb-6567119056-mcji6LG0g3Kw2gu7xSn87a8O'
+
+config.express =
+  port: env.HODOR_EXPRESS_PORT or 5000
